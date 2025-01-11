@@ -1,0 +1,167 @@
+/* General Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #1F2937;
+    line-height: 1.6;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Header (Hero Section) */
+.hero {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    padding: 20px 0;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-content .logo {
+    font-size: 24px;
+    font-weight: 900;
+    color: #F9FAF8;
+    img {
+        width: 100px;
+        margin-right: 10px;
+        height: 50px;
+    }
+}
+
+.header-content nav a {
+    margin-left: 20px;
+    font-size: 18px;
+    color: #E5E7EB;
+    text-decoration: none;
+}
+
+.header-content nav a:hover {
+    text-decoration: underline;
+}
+
+.hero-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 0;
+}
+
+.hero-text h1 {
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+
+.hero-text p {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #E5E7EB;
+}
+
+.hero-text .btn {
+    padding: 10px 20px;
+    background-color: #3882F6;
+    color: #FFF;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.hero-image .image-placeholder {
+    width: 300px;
+    height: 200px;
+    background-color: #E5E7EB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #1F2937;
+    font-size: 18px;
+}
+
+/* Info Section */
+.info-section {
+    background-color: #FFF;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.info-section h2 {
+    font-size: 36px;
+    font-weight: 900;
+    margin-bottom: 30px;
+}
+
+.info-grid {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.info-box {
+    width: 30%;
+    padding: 20px;
+    border: 2px solid #3882F6;
+    border-radius: 10px;
+}
+
+/* Quote Section */
+.quote-section {
+    background-color: #E5E7EB;
+    padding: 50px 0;
+    text-align: center;
+    font-style: italic;
+}
+
+.quote-section p {
+    font-size: 36px;
+    color: #1F2937;
+    margin-bottom: 10px;
+}
+
+.quote-section cite {
+    font-size: 18px;
+    color: #1F2937;
+}
+
+/* CTA Section */
+.cta-section {
+    background-color: #3882F6;
+    color: #FFF;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.cta-section h2 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.cta-section p {
+    margin-bottom: 20px;
+}
+
+.cta-section .btn {
+    padding: 10px 20px;
+    background-color: #FFF;
+    color: #3882F6;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Footer */
+footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 18px;
+}
